@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Practice lesson 11</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <ul class="header__menu">
+                    <li class="header__item">
+                        <a href="#static" class="header__link">Static</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#relative" class="header__link">Relative</a>
+                        <ul class="submenu">
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__link">Top</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__link">Bottom</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="" class="submenu__link">Left</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="" class="submenu__link">Right</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="" class="submenu__link">Z-index</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__item">
+                        <a href="#absolute" class="header__link">Absolut</a>
+                        <ul class="submenu">
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__link">Top</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__link">Bottom</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="" class="submenu__link">Left</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="" class="submenu__link">Right</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="" class="submenu__link">Z-index</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__item">
+                        <a href="#fixed" class="header__link">Fixed</a>
+                        <ul class="submenu">
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__link">Top</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__link">Bottom</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="" class="submenu__link">Left</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="" class="submenu__link">Right</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__item">
+                        <a href="#sticky" class="header__link">Sticky</a>
+                        <ul class="submenu">
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__link">Top</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="#" class="submenu__link">Bottom</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="section">
+                <div class="section__container">
+                    <div id="static" class="section__block static">
+                        <h2>Static</h2>
+                        <div class="section__item static__item_1">Block1</div>
+                        <div class="section__item static__item_2">Block2</div>
+                        <div class="section__item static__item_3">Block3</div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section__container">
+                    <div id="relative" class="section__block relative">
+                        <h2>Relative</h2>
+                        <div class="section__item relative__item_1">Block1</div>
+                        <div class="section__item relative__item_2">Block2</div>
+                        <div class="section__item relative__item_3">Block3</div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section__container">
+                    <div id="absolute" class="section__block absolute">
+                        <h2>Absolute</h2>
+                        <div class="section__item absolute__item_1">Block1</div>
+                        <div class="section__item absolute__item_2">Block2</div>
+                        <div class="section__item absolute__item_3">Block3</div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section__container">
+                    <div id="fixed" class="section__block fixed">
+                        <h2>Fixed</h2>
+                        <div class="section__item fixed__item_1">Block1</div>
+                        <div class="section__item fixed__item_2">Block2</div>
+                        <div class="section__item fixed__item_3">Block3</div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section__container">
+                    <div id="sticky" class="section__block sticky">
+                        <h2>Sticky</h2>
+                        <div class="section__item sticky__item_1">Block1</div>
+                        <div class="section__item sticky__item_2">Block2</div>
+                        <div class="section__item sticky__item_3">Block3</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="car">
+                <div class="car__block">
+                    <div class="car__background">
+                        <img src="img/road.png" alt="road">
+                    </div>
+                    <div class="car__body">
+                        <img src="img/car-body.png" alt="car body">
+                    </div>
+                    <div class="car__wheel car__wheel_forward">
+                        <img src="img/wheeel.png" alt="car wheel">
+                    </div>
+                    <div class="car__wheel car__wheel_aft">
+                        <img src="img/wheeel.png" alt="car wheel">
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <p class="footer__text">
+                    Гарної дороги
+                </p>
+            </div>
+
+        </footer>
+    </div>
+
+</body>
+
+</html>
